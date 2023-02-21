@@ -1,0 +1,117 @@
+html{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    font-family: 'Roboto', sans-serif;
+    background-color: #802748;
+}
+
+/* splash screen css starts here  */
+loading{
+    position: fixed;
+    width: 100%;
+    height: 100vh;
+    background: #093d4b url("img.jpg") no-repeat center center;
+    z-index: 99999;
+}
+
+.home .max-width{
+width: 100%;
+display: flex;
+}
+.home .max-width .row{
+margin-right: 0;
+}
+/* splash screen css ends here  */
+
+/* navbar css starts here  */
+.bg-light{
+    background-color: #54e9ab!important;
+}
+
+.navbar-brand{
+    font-family: 'Sansita Swashed', cursive;
+    font-size: 1.5rem;
+    color: #22364e!important;
+}
+
+.nav-link{
+    color: #284569!important;
+    font-family: 'Noto Sans JP', sans-serif;
+}
+
+.nav-link:hover{
+    background-color: #99a19b;
+}
+/* navbar css ends here  */
+
+/* here content css starts here  */
+.hero-content{
+    height: 100vh;
+    background-color: rgb(103, 10, 126);
+    color: rgb(255, 255, 255);
+    padding: 2rem;
+    border-bottom-left-radius: 35rem;
+    border-bottom-right-radius: 35rem;
+    margin-bottom: 0.5vh;
+}
+
+.hero-img{
+    height: 60vh;
+    width: 70%;
+    border-radius: 8rem;
+}
+
+@media only screen and (max-width: 766px) {
+    .hero-img {
+      display: none;
+    }
+}
+
+.get-started{
+    border-radius: 0.5rem;
+    padding: 1rem 2rem;
+    font-size: 162%;
+    background-color: #fff;
+    color: #e50307!important;
+    transition: 0.3s;
+}
+
+.get-started:hover{
+    text-decoration: none;
+    background-color: #a3adb3;
+    
+}
+/* here content css starts here  */
+
+/* get-started-buttons css starts here*/
+.get-started-content{
+    height: 60vh;
+    background-color: #ff6435;
+    border-top-left-radius: 42rem;
+    border-top-right-radius: 42rem;
+    border-bottom-right-radius: 42rem;
+    border-bottom-left-radius: 42rem;
+}
+
+.get-started-content .row{
+    padding: 25vh 0;
+}
+
+.get-started-content a{
+    border-radius: 0.5rem;
+    padding: 1rem 2rem;
+    font-size: 162%;
+    background-color: #e5033f;
+    color: #fff!important;
+    transition: 0.3s;
+}
+
+.get-started-content a:hover{
+    background-color: #b60152;
+    text-decoration: none;
+}
+/* get-started-buttons css end here*/
+
